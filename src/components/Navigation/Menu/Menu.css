@@ -1,0 +1,43 @@
+/* .Menu {
+  height: 100%;
+  width: 80px;
+  background-color: #703b09;
+  border: none;
+  color: white;
+  font-size: 1.5em;
+  outline: none;
+}
+
+.Menu:hover {
+  background-color: #8f5c2c;
+}
+
+@media (min-width: 500px) {
+  .Menu {
+    display: none;
+  }
+} */
+
+.DrawerToggle {
+  width: 40px;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.DrawerToggle div {
+  width: 90%;
+  height: 3px;
+  background-color: white;
+}
+
+@media (min-width: 500px) {
+  .DrawerToggle {
+    display: none;
+  }
+}
